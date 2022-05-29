@@ -18,7 +18,7 @@ beforeEach(()=>{
     }
 })
 
-test("test city should contain 3 houses", ()=>{
+test.skip("test city should contain 3 houses", ()=>{
     expect(city.houses.length).toBe(3);
 
     expect(city.houses[0].builtAt).toBe(2012)
@@ -38,7 +38,7 @@ test("test city should contain 3 houses", ()=>{
 })
 
 
-test("test city should contain hospital and fire station", ()=>{
+test.skip("test city should contain hospital and fire station", ()=>{
 
     expect(city.governmentBuildings.length).toBe(2);
 
