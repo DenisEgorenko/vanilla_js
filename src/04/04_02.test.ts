@@ -22,7 +22,7 @@ beforeEach(()=>{
 
 
 
-test("House should be destroyed", ()=>{
+test.skip("House should be destroyed", ()=>{
     demolishHouseOnTheStreet(city, "Happy Street")
 
 
@@ -32,7 +32,7 @@ test("House should be destroyed", ()=>{
 })
 
 
-test("buildings with correct staff count", ()=>{
+test.skip("buildings with correct staff count", ()=>{
     let buildings = get1(city.governmentBuildings, 500)
 
 

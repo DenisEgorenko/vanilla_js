@@ -34,7 +34,7 @@ beforeEach(() => {
 })
 
 
-test('Should return only older 90 years', () => {
+test.skip('Should return only older 90 years', () => {
 
     const oldFilter = ages.filter(ages => ages > 90)
 
@@ -43,7 +43,7 @@ test('Should return only older 90 years', () => {
 })
 
 
-test('Should return only cheap courses', () => {
+test.skip('Should return only cheap courses', () => {
 
     const cheapCourses = courses.filter(course => course.price < 160)
 
@@ -53,7 +53,7 @@ test('Should return only cheap courses', () => {
 })
 
 
-test('only bought items', () => {
+test.skip('only bought items', () => {
 
     const boughtItems = tasks.filter(task => task.isDone)
 

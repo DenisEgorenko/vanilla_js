@@ -23,7 +23,7 @@ beforeEach(()=>{
     }
 })
 
-test("new skill should be added", ()=>{
+test.skip("new skill should be added", ()=>{
 
     addSkill(student, "JS")
 
@@ -32,7 +32,7 @@ test("new skill should be added", ()=>{
 })
 
 
-test("student should be active", ()=>{
+test.skip("student should be active", ()=>{
 
     expect(student.isActive).toBe(false)
 
@@ -42,7 +42,7 @@ test("student should be active", ()=>{
 })
 
 
-test("student live in city?", ()=>{
+test.skip("student live in city?", ()=>{
 
 
     let result1 = doesStudentLiveIn(student, "Moscow")

@@ -34,7 +34,7 @@ beforeEach(() => {
 })
 
 
-test('People should know stack', () => {
+test.skip('People should know stack', () => {
 
 
     let newpeople = people.map(man => ({
@@ -50,7 +50,7 @@ test('People should know stack', () => {
 })
 
 
-test('Say Hello to People', () => {
+test.skip('Say Hello to People', () => {
 
 
     let hello = people.map(man => `Hello ${man.name.split(' ')[0]}`)
@@ -60,7 +60,7 @@ test('Say Hello to People', () => {
 })
 
 
-test('List of streets titles', () => {
+test.skip('List of streets titles', () => {
 
 
     let streets = getStreetsTitles(city.governmentBuildings)
@@ -71,7 +71,7 @@ test('List of streets titles', () => {
 })
 
 
-test('Create greeting messages for streets', () => {
+test.skip('Create greeting messages for streets', () => {
 
         let streets = createGreetMessage(city.houses)
 
