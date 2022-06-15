@@ -23,7 +23,7 @@ beforeEach(() => {
 })
 
 
-test('', () => {
+test.skip('', () => {
 
     const [ls1, ,...Rest] = man.lessons
 
