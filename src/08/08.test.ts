@@ -14,7 +14,7 @@ beforeEach(()=>{
 })
 
 
-test('Should select corresponding user from obj', ()=>{
+test.skip('Should select corresponding user from obj', ()=>{
 
     expect(users[0].name).toBe('Dimych')
     expect(users[1].name).toBe('Natasha')
@@ -31,7 +31,7 @@ test('Should select corresponding user from obj', ()=>{
 })
 
 
-test('Should delete corresponding obj', ()=>{
+test.skip('Should delete corresponding obj', ()=>{
 
     delete users[3]
 
