@@ -4,14 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import User from './06/06';
+import Promise from './promise/Promise';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <User />
-  </React.StrictMode>
+    <Promise/>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,7 +1,7 @@
 export type Usertype = {
     name: string,
     hair: number,
-    address: { title: string, house: number }
+    address: { title?: string, house?: number }
 }
 
 export type laptopType = {
